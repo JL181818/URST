@@ -1,4 +1,6 @@
 # URST
+=======
+This is the official repository for our paper: **Enhancing GUI Agent with Uncertainty-Aware Self-Trained Evaluator**.
 
 This project is based on [EasyR1](https://github.com/hiyouga/EasyR1) and [LLaMA-Factory](https://github.com/hiyouga/LLaMA-Factory).
 
