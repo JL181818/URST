@@ -4,18 +4,12 @@ set -x
 
 export PYTHONUNBUFFERED=1
 
-# 非交互式登录所需环境变量（替换成你的真实值） 
 export WANDB_API_KEY=your_key_here
 
 
 
-# 选用空闲卡（根据你的 nvidia-smi，GPU1/2 空闲）
 export CUDA_VISIBLE_DEVICES=4,5,6,7
 
-# Fix: 2025-12-03
-# 现象: 训练初始化时 NCCL Timeout，显存没爆，内存爆了/死锁。
-# 原因: L40S 没有 NVLink，默认 P2P 通信在 PCIe 上卡死。
-# 作用: 强制 NCCL 仅在有 NVLink 时才用 P2P，否则降级走内存。
 export NCCL_P2P_LEVEL=NVL
 
 MODEL_PATH=/path/to/your/model
