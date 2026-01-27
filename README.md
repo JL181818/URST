@@ -1,6 +1,5 @@
 # URST
 
-<<<<<<< HEAD
 This project is based on [EasyR1](https://github.com/hiyouga/EasyR1) and [LLaMA-Factory](https://github.com/hiyouga/LLaMA-Factory).
 
 ## Requirements
