@@ -65,7 +65,7 @@ python ./verl/trainer/sft.py \
 python verl/trainer/eval_sft.py --model_path  /path/to/save/sft/model
 ```
 
-### Stage 2: RL Training (SGPO - 3 Rounds)
+### Stage 2: RL Training (URST - 3 Rounds)
 
 #### 1. Environment Setup (RL)
 Note: This stage requires a different environment based on EasyR1/veRL.
