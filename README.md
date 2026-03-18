@@ -1,4 +1,8 @@
 # URST
+
+[![Hugging Face Model](https://img.shields.io/badge/%F0%9F%A4%97%20Model-URST__MODEL-yellow)](https://huggingface.co/JL18/URST_MODEL)
+[![Hugging Face Dataset](https://img.shields.io/badge/%F0%9F%A4%97%20Dataset-URST__DATA-yellow)](https://huggingface.co/JL18/URST_DATA)
+
 This is the official repository for our paper: **Enhancing GUI Agent with Uncertainty-Aware Self-Trained Evaluator**.
 
 This project is based on [EasyR1](https://github.com/hiyouga/EasyR1) and [LLaMA-Factory](https://github.com/hiyouga/LLaMA-Factory).
@@ -53,7 +57,7 @@ python ./verl/trainer/sft.py \
     --train_files /path/to/your/train_data.json \
     --project_name easyr1 \
     --experiment_name my_experiment
-```
+``` 
 
 
 #### 4. Evaluate SFT Model
@@ -98,7 +102,7 @@ export CUDA_VISIBLE_DEVICES=4,5,6,7
 MODEL_PATH=/path/to/your/model #SFT保存的checkpoint
 CHECKPOINT_PATH=/path/to/checkpoint/saves/easy_r1/experiment_name/SGPO_models_v1
 
-    data.train_files=/path/to/data/train_data/processed_candidate_data_labelled_list.json \
+    data.train_files=/path/to/data/train_data/processed_candidate_data_labelled_list.json \
 
 trainer.n_gpus_per_node=4 \ #the number of CUDA_VISIBLE_DEVICES
 
@@ -139,9 +143,3 @@ OUTPUT_DIR="output/eval_results"
 ```bash
 bash ./examples/test.sh
 ```
-
-
-  
-
-
-
