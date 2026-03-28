@@ -1,9 +1,10 @@
-# URST
+# URST [NeurIPS25]
 
 [![Hugging Face Model](https://img.shields.io/badge/%F0%9F%A4%97%20Model-URST__MODEL-yellow)](https://huggingface.co/JL18/URST_MODEL)
 [![Hugging Face Dataset](https://img.shields.io/badge/%F0%9F%A4%97%20Dataset-URST__DATA-yellow)](https://huggingface.co/JL18/URST_DATA)
+[![Paper](https://img.shields.io/badge/%20Paper-URST__NeurIPS25-red)](https://openreview.net/pdf?id=cuUsD5FJbe)
 
-This is the official repository for our paper: **Enhancing GUI Agent with Uncertainty-Aware Self-Trained Evaluator**.
+This is the official repository for our paper: **Enhancing GUI Agent with Uncertainty-Aware Self-Trained Evaluator** [NeurIPS 2025].
 
 This project is based on [EasyR1](https://github.com/hiyouga/EasyR1) and [LLaMA-Factory](https://github.com/hiyouga/LLaMA-Factory).
 
